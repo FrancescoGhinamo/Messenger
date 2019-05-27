@@ -1,0 +1,18 @@
+Communication protocol:
+After the client connects to port 8080:
+<flush required at every step>
+- client sends once its name (as String)
+- server checks if the name is not used yet (if yes it changes it) and sends it back to the client
+- server sends to every client the new user's name 
+- client sends its message in format <receiver>:<message_text>
+- the server finds the relative receiver and sends the message in format <source>:<message_text>
+
+In run method, server and client, after communicating name, await message from client / host
+
+The client has to await a message from the server and:
+if it is a communication that a new user is available then add the name of the user to the possible receivers
+otherwise analyze the message and associate it with the relative user.
+The client has one thread to send messages and to discriminate the receivers just add his name at the beginning,
+like specified in the comm. protocol.
+
+In the gui let the user choose wheter to start the app in server (let the user choose the port?) or client mode
