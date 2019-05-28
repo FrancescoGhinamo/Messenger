@@ -15,6 +15,7 @@ public class Commons {
 	public static final String OBS_ERROR = "Error";
 	public static final String OBS_SERVER_STOPPED = "Server stopped";
 	
+	
 	public static String makeMessage(String source, String content) {
 		return source + ":" + content;
 	}
