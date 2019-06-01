@@ -2,6 +2,7 @@ package client.frontend.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
+import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.InetAddress;
@@ -91,6 +92,7 @@ public class ClientManager extends JFrame implements ActionListener, Observer {
 
 	public void performNewMessage(String mes) {
 
+		Toolkit.getDefaultToolkit().beep();
 		this.toFront();
 
 		String[] source = Commons.getData(mes);

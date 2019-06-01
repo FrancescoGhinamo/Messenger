@@ -726,3 +726,21 @@ ClientHandler: New user connected: frank
 ClientHandler: frank left chat
 Session ended: 25/05/2019 18:46:37
 
+
+Session started: 01/06/2019 09:44:00
+Session ended: 01/06/2019 09:44:08
+
+
+Session started: 01/06/2019 09:49:05
+MessengerServer: Server started on port: 8080
+MessengerServer: New connection from IP: 127.0.0.1
+ClientHandler: New user connected: frank
+MessengerServer: New connection from IP: 192.168.43.73
+ClientHandler: New user connected: sem1944
+ClientHandler: sem1944 sent 23 byte of data to frank
+ClientHandler: frank sent 16 byte of data to sem1944
+ClientHandler: frank sent 10 byte of data to frank
+ClientHandler: sem1944 sent 19 byte of data to frank
+ClientHandler: frank left chat
+Session ended: 01/06/2019 09:52:50
+
