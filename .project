@@ -33,12 +33,12 @@
 		<link>
 			<name>info/Protocol.txt</name>
 			<type>1</type>
-			<location>F:/File Liceo/Backup/Liceo Scientifico 4/Informatica Liceo/Classe4E/GHINAMOFRANCESCO/Progetti/Messenger/info/Protocol.txt</location>
+			<location>C:/Users/franc/eclipse-workspace/Messenger/info/Protocol.txt</location>
 		</link>
 		<link>
 			<name>log/serverLog.txt</name>
 			<type>1</type>
-			<location>F:/File Liceo/Backup/Liceo Scientifico 4/Informatica Liceo/Classe4E/GHINAMOFRANCESCO/Progetti/Messenger/log/serverLog.txt</location>
+			<location>C:/Users/franc/eclipse-workspace/Messenger/log/serverLog.txt</location>
 		</link>
 	</linkedResources>
 </projectDescription>
